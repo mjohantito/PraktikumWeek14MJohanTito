@@ -53,8 +53,7 @@ namespace PraktikumWeek14_reversesort
             {
                 string input1 = textBoxInput.Text;
                 char[] sort = input1.ToCharArray();
-                //string listsymbol = "`~!@#$%^&*()_+-=[]{}|;':[]<>?,./";
-                //char[] symbol1 = listsymbol.ToCharArray();
+                
                 string symbol = String.Empty;
                 string besar = String.Empty;
                 string kecil = String.Empty;
