@@ -63,7 +63,7 @@ namespace PraktikumWeek14_reversesort
 
                 for (int i = 0; i < textBoxInput.TextLength - 1; i++)
                 {
-                    if (char.IsSymbol(sort[i]) == true || sort[i] == '!' || sort[i] =='@' || sort[i] =='#' || sort[i] =='$' || sort[i] =='%' || sort[i] =='^' || sort[i] =='&' || sort[i] =='*' || sort[i] =='(' || sort[i] ==')' || sort[i] =='?' || sort[i] =='.' || sort[i] ==',')
+                    if (char.IsSymbol(sort[i]) == true)
                     {
                         symbol += sort[i];
                     }
