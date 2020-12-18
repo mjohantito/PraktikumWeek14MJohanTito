@@ -65,19 +65,19 @@ namespace PraktikumWeek14_reversesort
                 {
                     if (char.IsSymbol(sort[i]) == true || sort[i] == '!' || sort[i] =='@' || sort[i] =='#' || sort[i] =='$' || sort[i] =='%' || sort[i] =='^' || sort[i] =='&' || sort[i] =='*' || sort[i] =='(' || sort[i] ==')' || sort[i] =='?' || sort[i] =='.' || sort[i] ==',')
                     {
-                        symbol = symbol + sort[i];
+                        symbol += sort[i];
                     }
                     if (char.IsLower(sort[i]) == true)
                     {
-                        kecil = kecil + sort[i];
+                        kecil += sort[i];
                     }
                     if (char.IsUpper(sort[i]) == true)
                     {
-                        besar = besar + sort[i];
+                        besar += sort[i];
                     }
                     if (char.IsNumber(sort[i]) == true)
                     {
-                        angka = angka + sort[i];
+                        angka += sort[i];
                     }
 
                 }
